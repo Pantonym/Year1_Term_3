@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <link rel="stylesheet" href="../css/main.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../js/index.js"></script>
+
+    <meta Author: Nico van Wyk>
+    <meta Subject: Interactive Development 100>
+    <meta Final Project Files>
+
+</head>
+
+<body>
+
+    <!--Sidebar navigation panel-->
+    <div class="nav_panel">
+
+        <a href="index.html" class="poppins font_20">Home</a>
+        <br>
+        <a href="flights.html" class="poppins font_20">Flights</a>
+        <br>
+        <a href="checkout.html" class="poppins font_20">Purchase <br> Ticket</a>
+
+    </div>
+
+    <!--Welcome message-->
+    <div id="intro_checkout" class="poppins font_28"> Welcome to Checkout <br> Your Purchases </div>
+
+    <!--Checkout table-->
+
+    <table id="checkout_table">
+
+        <tr>
+            <th id="top_left_table" class="right_border_light poppins font_24">Flight Code</th>
+            <th class="top_table right_border_light poppins font_24">Ticket Quantity</th>
+            <th class="top_table right_border_light poppins font_24">Total Cost</th>
+            <th id="top_right_table" class="poppins font_24"></th>
+        </tr>
+
+        <tr>
+            <td id="flight_code1" class="left_table td_row1 right_border_light ibarra font_22"></td>
+            <td id="ticket_amnt1" class="td_row2 right_border_light ibarra font_22"></td>
+            <td id="total_amnt1" class="td_row3 right_border_light ibarra font_22"></td>
+            <td class="right_table td_row4"> <button id="btn_1" class="checkout_btn poppins font_16" type="button">
+                    Remove Item
+                </button> </td>
+        </tr>
+
+        <tr>
+            <td id="flight_code2" class="left_table td_row1 right_border_light ibarra font_22"></td>
+            <td id="ticket_amnt2" class="td_row2 right_border_light ibarra font_22"></td>
+            <td id="total_amnt2" class="td_row3 right_border_light ibarra font_22"></td>
+            <td class="right_table td_row4"> <button id="btn_2" class="checkout_btn poppins font_16" type="button">
+                    Remove Item
+                </button> </td>
+        </tr>
+
+        <tr>
+            <td id="flight_code3" class="left_table td_row1 right_border_light ibarra font_22"></td>
+            <td id="ticket_amnt3" class="td_row2 right_border_light ibarra font_22"></td>
+            <td id="total_amnt3" class="td_row3 right_border_light ibarra font_22"></td>
+            <td class="right_table td_row4"> <button id="btn_3" class="checkout_btn poppins font_16" type="button">
+                    Remove Item
+                </button> </td>
+        </tr>
+
+        <tr>
+            <td id="flight_code4" class="left_table td_row1 right_border_light ibarra font_22"></td>
+            <td id="ticket_amnt4" class="td_row2 right_border_light ibarra font_22"></td>
+            <td id="total_amnt4" class="td_row3 right_border_light ibarra font_22"></td>
+            <td class="right_table td_row4"> <button id="btn_4" class="checkout_btn poppins font_16" type="button">
+                    Remove Item
+                </button> </td>
+        </tr>
+
+        <tr>
+            <td id="flight_code5" class="left_table td_row1 right_border_light ibarra font_22"></td>
+            <td id="ticket_amnt5" class="td_row2 right_border_light ibarra font_22"></td>
+            <td id="total_amnt5" class="td_row3 right_border_light ibarra font_22"></td>
+            <td class="right_table td_row4"> <button id="btn_5" class="checkout_btn poppins font_16" type="button">
+                    Remove Item
+                </button> </td>
+        </tr>
+
+        <tr>
+            <td class="left_table right_table bottom_table" colspan="4"> <button id="btn_all"
+                    class="checkout_all_btn ibarra font_22" type="button">Remove All</button></td>
+        </tr>
+
+    </table>
+
+    <button id="btn_purchase" class="ibarra font_28" type="button"> Purchase </button>
+
+    <!--Footer-->
+    <div class="footer poppins font_16">
+
+        <img src="../assets/Social/Twitter.png" class="footer_icon left twitter_js">
+        <img src="../assets/Social/Instagram.png" class="footer_icon left insta_js">
+        <img src="../assets/Social/Facebok.png" class="footer_icon left facebook_js">
+
+        <p class="footer_text left">StandardAirlines@gmail.com</p>
+        <p class="footer_text left">(+27) 114 764 2721</p>
+
+        <div class="footer_logo right"></div>
+
+    </div>
+
+</body>

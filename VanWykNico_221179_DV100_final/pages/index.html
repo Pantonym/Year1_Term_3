@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <link rel="stylesheet" href="../css/main.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../js/index.js"></script>
+
+    <meta Author: Nico van Wyk>
+    <meta Subject: Interactive Development 100>
+    <meta Final Project Files>
+
+</head>
+
+<body>
+
+    <!--Sidebar navigation panel-->
+    <div class="nav_panel">
+
+        <a href="index.html" class="poppins font_20">Home</a>
+        <br>
+        <a href="flights.html" class="poppins font_20">Flights</a>
+        <br>
+        <a href="checkout.html" class="poppins font_20">Purchase <br> Ticket</a>
+
+    </div>
+
+    <!--Header/hero image carousel-->
+    <div id="header_group">
+
+        <div id="info" class="left">
+
+            <!--Logo-->
+            <div id="logo"></div>
+
+            <!--Carousel image information-->
+            <div id="title" class="poppins font_20">Image Name</div>
+
+            <div id="image_info" class="ibarra font_20">
+
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur debitis beatae sed
+                quis placeat similique veritatis, a praesentium corporis eaque vel ex saepe voluptates totam suscipit
+                explicabo et repudiandae! Porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sequi,
+                eius obcaecati impedit ducimus, dolorum illo, perferendis culpa velit cupiditate fugiat expedita tempore
+                sapiente necessitatibus voluptatum fuga cum nihil eveniet.
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!--Welcome message-->
+    <div id="welcome_message" class="poppins font_32"> Standard Flights </div>
+
+
+    <!--First accordion - why choose us?-->
+    <div class="accordion poppins font_24" id="acc1">
+
+        <!--Left dropdown image-->
+        <div class="dropdown_image1 left">
+
+            <img src="../assets/Other/AccordianSymbol.png" class="dd_img_js">
+
+        </div>
+
+        <!--Title-->
+        <div class="accordion_title left"> Why choose us? </div>
+
+        <!--Right dropdown image-->
+        <div class="dropdown_image2 left">
+
+            <img src="../assets/Other/AccordianSymbol.png" class="dd_img_js">
+
+        </div>
+
+    </div>
+
+    <!--Text accompanying the accordion-->
+    <div class="accordion_text ibarra font_20" id="acc1_text">
+        We set the standard for all airlines, and give the best deals on tickets both national and
+        international. We have planes that fly to almost every major, and sometimes non-major, airport with the
+        best safety guarantee in the business.
+    </div>
+
+
+    <!--Second accordion - Maps-->
+    <div class="accordion poppins font_24" id="acc2">
+
+        <!--Left dropdown image-->
+        <div class="dropdown_image1 left">
+
+            <img src="../assets/Other/AccordianSymbol.png" class="dd_img_js">
+
+        </div>
+
+        <!--Title-->
+        <div class="accordion_title left"> Maps </div>
+
+        <!--Right dropdown image-->
+        <div class="dropdown_image2 left">
+
+            <img src="../assets/Other/AccordianSymbol.png" class="dd_img_js">
+
+        </div>
+
+    </div>
+
+    <!--Maps accompanying the accordion-->
+    <div class="accordion_maps ibarra font_20" id="acc2_text">
+
+        <div class="map_text ibarra font_24 left" style="margin-left: 25px;">
+
+            King Shaka International Airport <br> Durban
+
+            <div id="map1">
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3468.783524542954!2d31.114698415104968!3d-29.609978582042377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef7105eabc626d5%3A0xe906bb08e0c13d33!2sKing%20Shaka%20International%20Airport!5e0!3m2!1sen!2sza!4v1659443219022!5m2!1sen!2sza"
+                    width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+
+        </div>
+
+        <div class="map_text ibarra font_24 left">
+
+            O.R. Tambo <br> Johannesburg
+
+            <div id="map2">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14327.370742352652!2d28.22423689493184!3d-26.136671813274265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95143805a229c3%3A0xb3bf1c40792821d6!2sO.R.%20Tambo%20International%20Airport!5e0!3m2!1sen!2sza!4v1659443309807!5m2!1sen!2sza"
+                    width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+
+        <div class="map_text ibarra font_24 left" style="margin-right: 0px;">
+
+            Cape Town International Airport <br> Cape Town
+
+            <div id="map3">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.8201067079426!2d18.599896414564288!3d-33.97146298062805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc4542f7400bbd%3A0x40487579e3cf5e90!2sCape%20Town%20International%20Airport!5e0!3m2!1sen!2sza!4v1659443352800!5m2!1sen!2sza"
+                    width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--Third accordion - FAQ-->
+    <div class="accordion poppins font_24 right" id="acc3">
+
+        <!--Left dropdown image-->
+        <div class="dropdown_image1 left">
+
+            <img src="../assets/Other/AccordianSymbol.png" class="dd_img_js">
+
+        </div>
+
+        <!--Title-->
+        <div class="accordion_title left"> FAQ </div>
+
+        <!--Right dropdown image-->
+        <div class="dropdown_image2 left">
+
+            <img src="../assets/Other/AccordianSymbol.png" class="dd_img_js">
+
+        </div>
+
+    </div>
+
+    <!--FAQ questions-->
+    <div class="accordion_text" id="acc3_text">
+
+        <p class="poppins font_22" style="margin-bottom: 5px;"><u><b>Where can you find us?</b></u></p>
+        <p class="ibarra font_20"> King Shaka International Airport - Durban</p>
+        <p class="ibarra font_20"> O.R. Tambo - Johannesburg</p>
+        <p class="ibarra font_20"> Cape Town International Airport - Cape Town</p>
+
+        <br>
+        <p class="poppins font_22" style="margin-bottom: 5px;"><u><b>How do I buy a ticket?</b></u></p>
+        <p class="ibarra font_20"> Go to the flights page</p>
+        <p class="ibarra font_20"> Click on the flight you wish to purchase</p>
+        <p class="ibarra font_20"> Go to the Purchase Ticket page</p>
+        <p class="ibarra font_20"> Click on the button to purchase all</p>
+
+        <br>
+        <p class="poppins font_22" style="margin-bottom: 5px;"><u><b>How long after an order can I cancel a
+                    ticket?</b></u></p>
+        <p class="ibarra font_20"> You can cancel a ticket at any time, however you cannot claim a refund if you cancel
+            the ticket within 2 days of the flight</p>
+
+    </div>
+
+    <!--Footer-->
+    <div class="footer poppins font_16">
+
+        <img src="../assets/Social/Twitter.png" class="footer_icon left twitter_js">
+        <img src="../assets/Social/Instagram.png" class="footer_icon left insta_js">
+        <img src="../assets/Social/Facebok.png" class="footer_icon left facebook_js">
+
+        <p class="footer_text left">StandardAirlines@gmail.com</p>
+        <p class="footer_text left">(+27) 114 764 2721</p>
+
+        <div class="footer_logo right"></div>
+
+    </div>
+
+</body>

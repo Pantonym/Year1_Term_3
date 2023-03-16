@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <link rel="stylesheet" href="../css/main.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../js/index.js"></script>
+
+    <meta Author: Nico van Wyk>
+    <meta Subject: Interactive Development 100>
+    <meta Final Project Files>
+
+</head>
+
+<body>
+
+    <!--Sidebar navigation panel-->
+    <div class="nav_panel_flights">
+
+        <a href="index.html" class="poppins font_20">Home</a>
+        <br>
+        <a href="flights.html" class="poppins font_20">Flights</a>
+        <br>
+        <a href="checkout.html" class="poppins font_20">Purchase <br> Ticket</a>
+
+        <select name="filter" id="filter" class="poppins font_20">
+
+            <option value="0">No Filter</option>
+            <option value="1">International Flights</option>
+            <option value="2">Domestic Flights</option>
+            <option value="3">Direct Flights</option>
+            <option value="4">Lay-Over Flights</option>
+            <option value="5">Flights to Durban</option>
+            <option value="6">Red Eye Flights</option>
+
+        </select>
+
+    </div>
+
+    <!--Intro message-->
+
+    <div id="flights_intro" class="poppins font_20">Please select which flight you will be taking <br> - <br> We have
+        everything you could need
+    </div>
+
+    <br>
+
+    <!--Tickets-->
+    <!--Ticket 1-->
+    <div class="ticket_card" id="card_img1">
+
+        <div class="ticket_info poppins font_20" id="img1_info">
+
+            <b> John F. Kennedy International Airport - New York </b>
+
+            <br>
+            <br>
+
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure architecto necessitatibus deserunt asperiores
+            quaerat dolores omnis voluptate quam odit officia consectetur labore doloribus voluptas, fugiat magni quia,
+            temporibus beatae quo? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, ipsam eaque sit,
+            debitis hic illo modi exercitationem ipsum sequi molestiae quibusdam alias? Perspiciatis, corrupti quia
+            officia in iste optio dolorum.
+
+        </div>
+
+        <div class="poppins font_20" id="new_ticket1"></div>
+
+    </div>
+
+    <button id="flights_btn_1" class='flights_btn poppins font_16' type='button'> Purchase Ticket </button>
+
+    <!--Ticket 2-->
+    <div class="ticket_card" id="card_img2">
+
+        <div class="ticket_info poppins font_20" id="img2_info">
+
+            <b> Paris Charles de Gaulle Airport - Paris </b>
+
+            <br>
+            <br>
+
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure architecto necessitatibus deserunt asperiores
+            quaerat dolores omnis voluptate quam odit officia consectetur labore doloribus voluptas, fugiat magni quia,
+            temporibus beatae quo? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, ipsam eaque sit,
+            debitis hic illo modi exercitationem ipsum sequi molestiae quibusdam alias? Perspiciatis, corrupti quia
+            officia in iste optio dolorum.
+
+        </div>
+
+        <div class="poppins font_20" id="new_ticket2"></div>
+
+    </div>
+
+    <button id="flights_btn_2" class='flights_btn poppins font_16' type='button'> Purchase Ticket </button>
+
+    <!--Ticket 3-->
+    <div class="ticket_card" id="card_img3">
+
+        <div class="ticket_info poppins font_20" id="img3_info">
+
+            <b> Dubai International Airport - Dubai </b>
+
+            <br>
+            <br>
+
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure architecto necessitatibus deserunt asperiores
+            quaerat dolores omnis voluptate quam odit officia consectetur labore doloribus voluptas, fugiat magni quia,
+            temporibus beatae quo? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, ipsam eaque sit,
+            debitis hic illo modi exercitationem ipsum sequi molestiae quibusdam alias? Perspiciatis, corrupti quia
+            officia in iste optio dolorum.
+
+        </div>
+
+        <div class="poppins font_20" id="new_ticket3"></div>
+
+    </div>
+
+    <button id="flights_btn_3" class='flights_btn poppins font_16' type='button'> Purchase Ticket </button>
+
+    <!--Ticket 4-->
+    <div class="ticket_card" id="card_img4">
+
+        <div class="ticket_info poppins font_20" id="img4_info">
+
+            <b> Changi Airport - Singapore </b>
+
+            <br>
+            <br>
+
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure architecto necessitatibus deserunt asperiores
+            quaerat dolores omnis voluptate quam odit officia consectetur labore doloribus voluptas, fugiat magni quia,
+            temporibus beatae quo? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, ipsam eaque sit,
+            debitis hic illo modi exercitationem ipsum sequi molestiae quibusdam alias? Perspiciatis, corrupti quia
+            officia in iste optio dolorum.
+
+        </div>
+
+        <div class="poppins font_20" id="new_ticket4"></div>
+
+    </div>
+
+    <button id="flights_btn_4" class='flights_btn poppins font_16' type='button'> Purchase Ticket </button>
+
+    <!--Ticket 5-->
+    <div class="ticket_card" id="card_img5">
+
+        <div class="ticket_info poppins font_20" id="img5_info">
+
+            <b> King Shaka International Airport - Durban </b>
+
+            <br>
+            <br>
+
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure architecto necessitatibus deserunt asperiores
+            quaerat dolores omnis voluptate quam odit officia consectetur labore doloribus voluptas, fugiat magni quia,
+            temporibus beatae quo? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, ipsam eaque sit,
+            debitis hic illo modi exercitationem ipsum sequi molestiae quibusdam alias? Perspiciatis, corrupti quia
+            officia in iste optio dolorum.
+
+        </div>
+
+        <div class="poppins font_20" id="new_ticket5"></div>
+
+    </div>
+
+    <button id="flights_btn_5" class='flights_btn poppins font_16' type='button'> Purchase Ticket </button>
+
+    <!--Ticket 6-->
+    <div class="ticket_card" id="card_img6">
+
+        <div class="ticket_info poppins font_20" id="img6_info">
+
+            <b> London City Airport - London </b>
+
+            <br>
+            <br>
+
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure architecto necessitatibus deserunt asperiores
+            quaerat dolores omnis voluptate quam odit officia consectetur labore doloribus voluptas, fugiat magni quia,
+            temporibus beatae quo? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, ipsam eaque sit,
+            debitis hic illo modi exercitationem ipsum sequi molestiae quibusdam alias? Perspiciatis, corrupti quia
+            officia in iste optio dolorum.
+
+        </div>
+
+        <div class="poppins font_20" id="new_ticket6"></div>
+
+    </div>
+
+    <button id="flights_btn_6" class='flights_btn poppins font_16' type='button'> Purchase Ticket </button>
+
+
+    <!--Footer-->
+    <div class="footer poppins font_16">
+
+        <img src="../assets/Social/Twitter.png" class="footer_icon left twitter_js">
+        <img src="../assets/Social/Instagram.png" class="footer_icon left insta_js">
+        <img src="../assets/Social/Facebok.png" class="footer_icon left facebook_js">
+
+        <p class="footer_text left">StandardAirlines@gmail.com</p>
+        <p class="footer_text left">(+27) 114 764 2721</p>
+
+        <div class="footer_logo right"></div>
+
+    </div>
+
+</body>
